@@ -1,0 +1,3 @@
+# Concurrent Task Queue
+
+An intelligent task-processing agent designed to fetch and execute asynchronous workloads from public sources. It utilizes robust content inspection and an external API to filter out unsafe instructions. The execution engine handles multiple tasks concurrently, employing strict concurrency controls to guarantee that shared resources—such as counters and databases—remain perfectly consistent and free from race conditions, even under adversarial timing.
